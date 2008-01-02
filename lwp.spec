@@ -13,6 +13,7 @@ Release: %{release}
 Source: ftp://ftp.coda.cs.cmu.edu/pub/coda/src/%{name}-%{version}.tar.gz
 License: LGPLv2
 URL: http://www.coda.cs.cmu.edu
+BuildRoot: %{_tmppath}/%{name}-buildroot
 Group: Development/Other
 
 %description
