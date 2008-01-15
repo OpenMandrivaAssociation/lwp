@@ -1,6 +1,6 @@
 %define name lwp
 %define version 2.3
-%define release %mkrel 2
+%define release %mkrel 3
 %define major 2
 
 %define libname %mklibname %name %major
