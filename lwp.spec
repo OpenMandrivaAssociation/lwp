@@ -1,6 +1,6 @@
 %define name lwp
-%define version 2.3
-%define release %mkrel 4
+%define version 2.5
+%define release %mkrel 1
 %define major 2
 
 %define libname %mklibname %name %major
@@ -10,11 +10,11 @@ Summary: LWP thread library
 Name: %{name}
 Version: %{version}
 Release: %{release}
-Source: ftp://ftp.coda.cs.cmu.edu/pub/coda/src/%{name}-%{version}.tar.gz
 License: LGPLv2
+Source: ftp://ftp.coda.cs.cmu.edu/pub/coda/src/%{name}-%{version}.tar.gz
 URL: http://www.coda.cs.cmu.edu
-BuildRoot: %{_tmppath}/%{name}-buildroot
 Group: Development/Other
+BuildRoot: %{_tmppath}/%{name}-%{version}
 
 %description
 The LWP userspace threads library. The LWP threads library is used by the Coda
@@ -85,3 +85,4 @@ rm -rf $RPM_BUILD_ROOT
 %{_includedir}/lwp/lock.h
 %{_includedir}/lwp/lwp.h
 %{_includedir}/lwp/timer.h
+%{_libdir}/pkgconfig/lwp.pc
