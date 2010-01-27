@@ -1,6 +1,6 @@
 %define name lwp
 %define version 2.5
-%define release %mkrel 3
+%define release %mkrel 4
 %define major 2
 
 %define libname %mklibname %name %major
@@ -15,6 +15,7 @@ Source: ftp://ftp.coda.cs.cmu.edu/pub/coda/src/%{name}-%{version}.tar.gz
 URL: http://www.coda.cs.cmu.edu
 Group: Development/Other
 BuildRoot: %{_tmppath}/%{name}-%{version}
+Buildrequires: gzip
 
 %description
 The LWP userspace threads library. The LWP threads library is used by the Coda
