@@ -57,12 +57,12 @@ call library).
 %make
 
 %install
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 %makeinstall
-chmod 755 $RPM_BUILD_ROOT%{_libdir}/liblwp.so.*
+chmod 755 %{buildroot}%{_libdir}/liblwp.so.*
 
 %clean
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
 %if %mdkversion < 200900
 %post -p /sbin/ldconfig -n %{libname}
