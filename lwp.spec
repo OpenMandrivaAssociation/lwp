@@ -38,9 +38,10 @@ This package includes the development files for %{name}.
 
 %prep
 %setup -q
+mv configure.in configure.ac
 
 %build
-%configure2_5x --disable-static
+%configure --disable-static
 %make
 
 %install
