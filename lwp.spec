@@ -38,7 +38,6 @@ This package includes the development files for %{name}.
 
 %prep
 %setup -q
-mv configure.in configure.ac
 
 %build
 %configure --disable-static
