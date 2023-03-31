@@ -5,7 +5,7 @@
 Summary:	LWP thread library
 Name:		lwp
 Version:	2.8
-Release:	1
+Release:	2
 License:	LGPLv2
 Group:		Development/Other
 Url:		http://www.coda.cs.cmu.edu
