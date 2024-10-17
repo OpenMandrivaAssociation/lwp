@@ -8,7 +8,7 @@ Version:	2.8
 Release:	2
 License:	LGPLv2
 Group:		Development/Other
-Url:		http://www.coda.cs.cmu.edu
+Url:		https://www.coda.cs.cmu.edu
 Source0:	ftp://ftp.coda.cs.cmu.edu/pub/coda/src/%{name}-%{version}.tar.gz
 Buildrequires:	gzip
 
