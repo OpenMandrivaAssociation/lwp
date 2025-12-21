@@ -10,6 +10,11 @@ License:	LGPLv2
 Group:		Development/Other
 Url:		https://www.coda.cs.cmu.edu
 Source0:	ftp://ftp.coda.cs.cmu.edu/pub/coda/src/%{name}-%{version}.tar.gz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 Buildrequires:	gzip
 
 %description
